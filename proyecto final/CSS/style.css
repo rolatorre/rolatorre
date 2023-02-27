@@ -12,12 +12,13 @@ body{
 }
 
 h1 {
-    color: #00001a; 
+    color: #1a1a1a; 
     font-size: 90px;
     text-align: center;
     font-family: lucida sans regular; 
     margin: 50px 100px 0px 0px;
     padding: 50px;
+    text-shadow: 2px 2px; 
 
 }
 span{
@@ -28,8 +29,9 @@ span{
 img {
     border-style: solid; 
     color: rosybrown; 
-    margin: 0px 0px 0px 500px;
+    margin: 0px 0px 0px 300px;
     text-align: left;
+    border-radius: 8px
 
 }
 #izquierda{
@@ -47,15 +49,14 @@ img {
     padding: 5px;
     margin: 10px 300px 20px 100px;
     float: right;
-    
-
-}
+   }
 
  p {
-   margin: 10px 60px 10px 60px;
+   margin: 10px 300px 10px 100px;
    font-style: oblique;
    font-family: heveltica;
    text-align: justify;
+   font-size: 20px;
   }
 
  #imp{
@@ -75,11 +76,12 @@ img {
  }
  #informacion{
     float: left;
-    margin: 0px 10px 10px 200px;
+    margin: 0px 10px 10px 300px;
+    padding: 0px 10px 10px 10px;
  }
  #acerca{
     color: #ffb399;
-    margin: 0px 10px 0px 10px;
+    margin: 50px 10px 0px 10px;
     padding: 10px;
  }
  #habilidades1{
@@ -89,4 +91,9 @@ img {
  }
  * {
     box-sizing: border-box;
+  }
+  #cont{
+    font-family: verdana;
+    font-size: 25px;
+    font-style: italic;
   }
