@@ -18,7 +18,8 @@ h1 {
     font-family: lucida sans regular; 
     margin: 50px 100px 0px 0px;
     padding: 50px;
-    text-shadow: 2px 2px; 
+    text-shadow: 2px 2px grey; 
+    
 
 }
 span{
@@ -49,6 +50,8 @@ img {
     padding: 5px;
     margin: 10px 300px 20px 100px;
     float: right;
+    font-family: helvetica;
+    font-style: oblique;
    }
 
  p {
@@ -87,7 +90,8 @@ img {
  #habilidades1{
     float: right;
     display: inline;
-   
+    font-family: helvetica;
+    font-style: oblique;
  }
  * {
     box-sizing: border-box;
@@ -96,4 +100,18 @@ img {
     font-family: verdana;
     font-size: 25px;
     font-style: italic;
+  }
+  #contenido{
+    font-family: helvetica;
+    font-style: oblique;
+  }
+  #boton{
+    color: whitesmoke;
+    background-color: rosybrown;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: wavy;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
   }
