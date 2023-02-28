@@ -114,4 +114,10 @@ img {
     display: inline-block;
     font-size: 20px;
     border-radius: 12px;
+    margin: 200px 50px 0px 10px;
+  }
+  #demo{
+    margin: 300px 0px 0px 0px;
+    display: inline-block;
+    
   }
